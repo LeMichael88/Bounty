@@ -24,7 +24,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="350dp"
-        android:layout_height="325dp"
+        android:layout_height="375dp"
         android:layout_below="@+id/titleText"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="44dp"
@@ -50,6 +50,23 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:id="@+id/codeInput"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center_vertical"
+            android:text="Code"
+            android:textAlignment="center"
+            android:textColor="#BABABA"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/promptText" />
+
+        <EditText
             android:id="@+id/nameInput"
             android:layout_width="260dp"
             android:layout_height="48dp"
@@ -64,7 +81,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/promptText" />
+            app:layout_constraintTop_toBottomOf="@+id/codeInput" />
 
         <Button
             android:id="@+id/enterButton"
@@ -76,7 +93,7 @@
             android:text="ENTER"
             android:textColor="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nameInput" />
     </androidx.constraintlayout.widget.ConstraintLayout>
