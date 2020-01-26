@@ -1,4 +1,4 @@
-package com.francochen.silentkiller;
+package com.francochen.silentkiller.model;
 
 public class Player {
     private String name;

@@ -1,4 +1,4 @@
-package com.francochen.silentkiller;
+package com.francochen.silentkiller.model;
 
 import java.util.List;
 
