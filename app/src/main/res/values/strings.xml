@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SilentKiller</string>
+    <string name="your_room_code">Room code</string>
+    <string name="room_code">ABCDEF</string>
+    <string name="invite">Invite</string>
+    <string name="lobby">Lobby</string>
+    <string name="start">Start</string>
+    <string name="disband">Disband</string>
 </resources>
