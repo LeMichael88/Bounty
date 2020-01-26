@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="375dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@android:color/black">
+
+        <TextView
+            android:id="@+id/promptText"
+            android:layout_width="267dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="32dp"
+            android:text="Enter your room code and name"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/roomCodeInput"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center_vertical"
+            android:text="Room Code"
+            android:textAlignment="center"
+            android:textColor="#BABABA"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/promptText" />
+
+        <TextView
+            android:id="@+id/nameInput"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#BABABA"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roomCodeInput" />
+
+        <Button
+            android:id="@+id/enterButton"
+            android:layout_width="260dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#2EC4B6"
+            android:text="ENTER"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameInput" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
