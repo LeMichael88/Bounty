@@ -1,4 +1,4 @@
-package com.francochen.silentkiller;
+package com.francochen.silentkiller.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import com.francochen.silentkiller.R;
 import com.francochen.silentkiller.model.Player;
 
 import java.util.List;
@@ -16,8 +17,6 @@ public class LobbyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
     }
 
     private void updateLobby() {
