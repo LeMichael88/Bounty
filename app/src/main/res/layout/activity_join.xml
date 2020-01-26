@@ -49,7 +49,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <EditText
             android:id="@+id/roomCodeInput"
             android:layout_width="260dp"
             android:layout_height="48dp"
@@ -65,7 +65,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/promptText" />
 
-        <TextView
+        <EditText
             android:id="@+id/nameInput"
             android:layout_width="260dp"
             android:layout_height="48dp"
