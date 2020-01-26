@@ -25,6 +25,9 @@ public class JoinGameActivity extends Activity {
         setContentView(R.layout.activity_join);
 
         findViewById(R.id.enterButton).setOnClickListener(view -> {
+            Intent test = new Intent(JoinGameActivity.this, GameActivity.class);
+            JoinGameActivity.this.startActivity(test);
+
             String roomId = ((EditText) findViewById(R.id.roomCodeInput)).getText().toString();
             UUID uuid = UUID.randomUUID();
 
